@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import csv
-START_URL = "https://exoplanets.nasa.gov/exoplanet-catalog/"
+START_URL = "https://en.wikipedia.org/wiki/List_of_brightest_stars_and_other_record_stars"
 browser = webdriver.Chrome("/home/dev_veve/Downloads/C127/chromedriver_linux64/chromedriver")
 browser.get(START_URL)
 time.sleep(10)
